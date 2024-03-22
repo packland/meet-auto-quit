@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Leaves a Meeting if the Quorum Decreases (when other people start leaving)
-// @author       You
+// @author       Patrick Silva & Lucas Federicci
 // @match        https://meet.google.com/*
 // @icon         none
 // @grant        none
