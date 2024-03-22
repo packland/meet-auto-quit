@@ -10,5 +10,5 @@ A Greasemonkey/Tampermonkey script that automatically leaves a meeting if the qu
 ## Optional Settings
 If you want to customize the quitting behavior, go to “Installed Userscripts” and modify the following variables:
 
-min_reuniao = 2 << The minimal quorum before the “auto-quit” starts monitoring and quitting.
+min_reuniao = 2 << The minimal quorum before the “auto-quit” starts monitoring and quitting.<BR>
 min_quorum = 0.5 << If the meeting quorum goes below this percentage (0.5 means 50% of its maximum), you will automatically quit.
