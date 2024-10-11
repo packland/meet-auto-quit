@@ -28,7 +28,7 @@ const membersfunction = (item) => {
         }
         if (quorum < max_reuniao * min_quorum) {
             console.log('quorum menor que o minimo')
-            window.document.querySelector(".QQrMi").click()
+            window.document.querySelector(".VYBDae-Bz112c-LgbsSe").click()
         }
     }
 };
