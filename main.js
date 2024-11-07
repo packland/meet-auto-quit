@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Meet auto quitting
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Leaves a Meeting if the Quorum Decreases (when other people start leaving)
 // @author       Patrick Silva & Lucas Federicci
 // @match        https://meet.google.com/*
@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 (function() {
-    console.log('Starting Script');
+    console.log('Starting Script. Versão 1.1');
 var min_reuniao = 2;
 var max_reuniao = 0
 var min_quorum = 0.5
@@ -28,7 +28,7 @@ const membersfunction = (item) => {
         }
         if (quorum < max_reuniao * min_quorum) {
             console.log('quorum menor que o minimo')
-            window.document.querySelector(".VYBDae-Bz112c-LgbsSe").click()
+            window.document.querySelector('button[aria-label="Sair da chamada"]').click()
         }
     }
 };
